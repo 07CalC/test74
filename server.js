@@ -6,7 +6,7 @@ const port = 6124;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, World! this time me and homie sucking each\n');
+  res.end('Hello, World! this time me and homie sucking each others toe :drool:\n');
 });
 
 server.listen(port, hostname, () => {
